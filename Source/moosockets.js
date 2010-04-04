@@ -1,11 +1,20 @@
-//==========================================================
-// Mootools port of jQuery plugin jquery.ws.js  (see http://bloga.jp/ws/jq/ for the original)
-// for Web Sockets.
-// 
-// Moosockets
-// 
-// Copyright Ciaran Jessup <ciaranj@gmail.com> (MIT Licensed)
-//==========================================================
+/*
+---
+description: Mootools port of jQuery plugin jquery.ws.js  (see http://bloga.jp/ws/jq/ for the original) for Web Sockets.
+
+license: MIT-style
+
+authors:
+- Unknown Origin Author (tato? http://bloga.jp/ws/jq/  )
+- Ciaran Jessup <ciaranj@gmail.com>
+
+requires:
+
+provides: [MooSocket]
+
+...
+*/
+
 var MooSocket = new Class({
         Implements: [Options],
         options: {
